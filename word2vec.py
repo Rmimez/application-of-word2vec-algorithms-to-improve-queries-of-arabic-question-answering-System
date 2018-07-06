@@ -1,3 +1,14 @@
+##******************************************************************************************
+##Application of Word2Vec Algorithms to Improve Queries of Arabic Question Answering System.
+##university     : University of Yahia Fares -Medea-
+##project        : Submitted for graduation project in computer science master
+##Specialty      : Systems Engineering and Web Technology
+##Version        : 0.1
+##Author         : HACHEMI Mohamed Ramzi
+##Directed By    : Mazari Ahmed Chrif
+##Source         : https://github.com/Rmimez/application-of-word2vec-algorithms-to-improve-queries-of-arabic-question-answering-System/edit/master/word2vec.py
+#Accademic year  : 2017/2018
+##*****************************************************************************************
 # coding: utf-8
 #!/usr/bin/env python
 
