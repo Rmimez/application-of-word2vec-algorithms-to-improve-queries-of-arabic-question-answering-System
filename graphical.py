@@ -6,7 +6,7 @@
 ##Version        : 0.1
 ##Author         : HACHEMI Mohamed Ramzi
 ##Directed By    : Mazari Ahmed Chrif
-##Source         : https://github.com/Rmimez/Word2vec-for-arabic-
+##Source         : https://github.com/Rmimez/application-of-word2vec-algorithms-to-improve-queries-of-arabic-question-answering-System/blob/master/graphical.py
 #Accademic year  : 2017/2018
 ##*****************************************************************************************
 
