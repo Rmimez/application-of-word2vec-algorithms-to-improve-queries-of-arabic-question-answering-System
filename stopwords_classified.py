@@ -1,7 +1,14 @@
-# coding: utf-8
-#!/usr/bin/env python
-
-
+--~# generated format python
+--~#file name  tests/output/stopwords.csv
+--~#output format python
+##*************************************
+##Arabic Stop word list for morphology analysis and information retrival
+##Version        : N/A
+##Generated at   : 2017/12/30:12:13 
+##Author         : Taha Zerrouki
+##Web            : http://arabicstopwords.sf.net
+##Source         : http://github.com/linuxscout/arabicstopwords
+##*************************************
 STOPWORDS={}
 STOPWORDS[u'بضع']= {'vocalized':u'بِضْعَ', 'type_word':u'اسم', 'class_word':u'كناية', 'has_conjuction':1, 'has_definition':0, 'has_preposition':0, 'has_pronoun':1, 'has_interrog':1, 'has_conjugation':0, 'has_qasam':0, 'is_defined':0, 'is_inflected':0, 'tanwin':0, 'action':u'', 'object_type':u'', 'need':u''}
 STOPWORDS[u'ذيت']= {'vocalized':u'ذَيْتَ', 'type_word':u'اسم', 'class_word':u'كناية', 'has_conjuction':1, 'has_definition':0, 'has_preposition':0, 'has_pronoun':0, 'has_interrog':0, 'has_conjugation':0, 'has_qasam':0, 'is_defined':0, 'is_inflected':0, 'tanwin':0, 'action':u'', 'object_type':u'', 'need':u''}
@@ -493,11 +500,3 @@ STOPWORDS[u'لكن']= {'vocalized':u'لَكِنَّ', 'type_word':u'حرف', 'cl
 STOPWORDS[u'ليت']= {'vocalized':u'لَيْتَ', 'type_word':u'حرف', 'class_word':u'إن و أخواتها', 'has_conjuction':1, 'has_definition':0, 'has_preposition':0, 'has_pronoun':1, 'has_interrog':0, 'has_conjugation':0, 'has_qasam':0, 'is_defined':0, 'is_inflected':0, 'tanwin':0, 'action':u'ناصب', 'object_type':u'اسم', 'need':u''}
 STOPWORDS[u'فقط']= {'vocalized':u'فَقَطْ', 'type_word':u'حرف', 'class_word':u'', 'has_conjuction':1, 'has_definition':0, 'has_preposition':0, 'has_pronoun':0, 'has_interrog':0, 'has_conjugation':0, 'has_qasam':0, 'is_defined':0, 'is_inflected':0, 'tanwin':0, 'action':u'', 'object_type':u'', 'need':u''}
 STOPWORDS[u'و']= {'vocalized':u'وَ', 'type_word':u'حرف', 'class_word':u'حرف عطف منفصل', 'has_conjuction':0, 'has_definition':0, 'has_preposition':0, 'has_pronoun':0, 'has_interrog':0, 'has_conjugation':0, 'has_qasam':0, 'is_defined':0, 'is_inflected':0, 'tanwin':0, 'action':u'متبع', 'object_type':u'اسم فعل', 'need':u''}
-
-
-def this_is_stop_word(word):
-	if word in STOPWORDS :
-		return True
-	else :
-		return False
-
